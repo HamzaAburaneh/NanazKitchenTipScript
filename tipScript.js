@@ -12,7 +12,7 @@ var widgets;
 // Calculating subtotal and displaying the message
 var checkSubtotal = function(order) {
   if (order) {
-    var subtotal = order.total - order.shipping;
+    var subtotal = order.total;
     if (subtotal > minSubtotal) {
       alert(promoMessage);
     }  
