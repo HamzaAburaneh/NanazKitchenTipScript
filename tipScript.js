@@ -4,6 +4,7 @@
  * informing them that they will qualify for free shipping if their 
  * order is more than $99
  */
+type="application/json"
 
 var promoMessage = "Orders $99 and up ship free!";
 var minSubtotal = 99;
