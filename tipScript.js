@@ -27,6 +27,7 @@ Ecwid.OnPageLoaded.add(function(page) {
   for (i = 0; i < widgets.length ; i++) {
     if (widgets[i] == "ProductBrowser") {
       if ('CART' == page.type) {
+        alert("test");
         Ecwid.Cart.calculateTotal(function(order) {
           checkSubtotal(order);
         });
