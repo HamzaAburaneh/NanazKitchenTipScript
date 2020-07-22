@@ -1,10 +1,11 @@
+script<type="application/json">
+
 /*
  * Show a promo 'Free shipping' message on the cart page. 
  * In the example below, users will see a message on the cart page 
  * informing them that they will qualify for free shipping if their 
  * order is more than $99
  */
-type="application/json"
 
 var promoMessage = "Orders $99 and up ship free!";
 var minSubtotal = 99;
@@ -42,3 +43,5 @@ var color = Ecwid.getAppPublicConfig(appId);
 
 // your code here
 // ...
+
+</script>
